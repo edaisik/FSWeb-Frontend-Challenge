@@ -1,0 +1,188 @@
+.App {
+  font-family: "Inter", sans-serif;
+}
+
+.component {
+  padding: 5rem 0;
+}
+
+h2 {
+  font-size: 2.25rem;
+  margin-bottom: 2.25rem;
+  text-align: center;
+}
+
+.Header {
+  padding-top: 3rem;
+}
+
+header {
+  font-size: 0.94rem;
+  line-height: 1rem;
+  font-weight: 600;
+}
+
+header:last-child {
+  content: "TÜRKÇE";
+  color: "#E92577";
+}
+
+#intro-left {
+  flex-shrink: 1;
+}
+
+#greeting p {
+  font-weight: 600;
+  font-size: 1.88rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.01em;
+  margin-bottom: 1.3rem;
+}
+
+#greeting h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 4rem;
+  letter-spacing: 0.01em;
+}
+
+#intro-footer {
+  margin-top: 3.6rem;
+}
+
+#intro-footer-text {
+  margin-top: 7%;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.Introduction img {
+  max-width: 22rem;
+  max-height: 22rem;
+  flex-shrink: 1;
+  margin-top: 2.5rem;
+}
+
+.skill-icon img {
+  height: 8rem;
+  width: 8rem;
+  text-align: center;
+}
+
+.Profile {
+  font-size: 1.0rem;
+  line-height: 1.5rem;
+}
+
+.Profile:nth-child(2) {
+  position: relative;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+.Profile h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.6rem;
+}
+
+#basic-info {
+  padding: 2.5rem;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.dark #basic-info::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  padding: 2.5rem;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background-color: #525252;
+  top: 0.5rem;
+  left: 0.5rem;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.info-key {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+#project-card-container .Project:first-child {
+  background-color: #ddeefe;
+}
+
+.dark #project-card-container .Project:first-child {
+  background-color: #2d3235;
+}
+
+#project-card-container .Project:nth-child(2) {
+  background-color: #d9f6f1;
+}
+
+.dark #project-card-container .Project:nth-child(2) {
+  background-color: #495351;
+}
+
+.Project {
+  border: 1px solid transparent;
+  border-radius: 12px;
+  line-height: 1.5rem;
+}
+
+.Project h3 {
+  font-size: 1.8rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+}
+
+.Project .tag {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  border: 1px solid transparent;
+  border-radius: 4.75rem;
+  padding: 6px 20px 10px 20px;
+}
+
+#links {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+footer {
+  width: 56%;
+  font-size: 2.6rem;
+}
+
+footer h1 {
+  max-width: 70%;
+  line-height: 4rem;
+}
+
+#footer-links {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 12px;
+  }
+
+  .component {
+    padding: 3rem 0;
+  }
+
+  .info-key {
+    font-weight: 500;
+  }
+}
